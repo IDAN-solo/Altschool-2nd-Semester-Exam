@@ -1,6 +1,6 @@
 This repository contains a script that automates the provisioning of two Ubuntu based servers namely master and slave.
 It contains a second script that automates the deployment of a lamp stack, clones laravel from GitHub, installs all necessary packages, and configures Apache web server and MySQL.
-The script also contains an ansible playbook which executes the second script on the slave server and creates a cron job to check the server's uptime every 12am.
+The repo also contains an ansible playbook which executes the second script on the slave server and creates a cron job to check the server's uptime every 12am.
 
 Bash Scripts:
 -vagrant.sh - This script spins up the master and slave machines in a ~/Documents/vms-2 folder. It works by the configuring the vagrant file to set up the respective machines.
